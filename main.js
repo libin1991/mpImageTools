@@ -6,6 +6,8 @@ let mainWindow = null;
 // 
 const createWindow = () => {
   mainWindow = new BrowserWindow( {
+    minWidth: 1366,
+    minHeight: 768,
     width: 1366,
     height: 768,
     center: true,
